@@ -14,6 +14,6 @@ func main() {
 
 
 func Weather(location string) string {
-	message := fmt.Sprintf("The weather looks nice today in %v!", location)
+	message := fmt.Sprintf("The weather looks poor today in %v!", location)
 	return message
 }
